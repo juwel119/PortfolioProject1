@@ -1,0 +1,77 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Blog</title>
+</head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/contract">Contract</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <h1 class="text-center">Bangladesh</h1>
+      <img src="{% static 'images/img1.jpg' %}" class="d-block w-100" alt="..."height="500"width="300">
+       <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4> About Bangladesh</h4>
+            <img src="{% static 'images/img1.jpg' %}" class="d-block w-100" alt="..."height="300"width="1000">
+          <p>
+            Bangladesh (/ˌbæŋɡləˈdɛʃ, ˌbɑːŋ-/;[14] Bengali: বাংলাদেশ, pronounced [ˈbaŋlaˌdeʃ] (listen)), officially the 
+            People's Republic of Bangladesh, is a country in South Asia. It is the eighth-most populous country in the 
+            world, with a population exceeding 165 million people in an area of either 148,460 square kilometres (57,320 sq mi) 
+            or 147,570 square kilometres (56,980 sq mi),[7][15] making it one of the most densely populated countries in the world.
+            Bangladesh shares land borders with India to the west, north, and east, and Myanmar to the southeast; to the south it
+            has a coastline along the Bay of Bengal. It is narrowly separated from Bhutan and Nepal by the Siliguri Corridor; 
+           and from China by 100 km of the Indian state of Sikkim in the north.[16] Dhaka, the capital and largest city, is the
+           nation's economic, political, and cultural hub. Chittagong, the largest seaport, is the second-largest city. The
+           official language is Bengali, one of the easternmost branches of the Indo-European language family.
+          </p>
+          </div>
+          <div class="col-md-6">
+            <h4> History Bangladesh</h4>
+            <img src="{% static 'images/img1.jpg' %}" class="d-block w-100" alt="..."height="300"width="1000">
+          <p>
+            Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was divided during
+             the Partition of India in 1947.[17] The country has a Bengali Muslim majority. Ancient Bengal was an important 
+             cultural centre in the Indian subcontinent as the home of the states of Vanga, Pundra, Gangaridai, Gauda, Samatata, 
+             and Harikela. The Mauryan, Gupta, Pala, Sena, Chandra and Deva dynasties were the last pre-Islamic rulers of Bengal. 
+          </p>
+          </div>
+        </div>
+
+       </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
